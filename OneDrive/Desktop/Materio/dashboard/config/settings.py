@@ -42,7 +42,7 @@ DEBUG = os.environ.get("DEBUG", 'True').lower() in ['true', 'yes', '1']
 
 
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = ["jhoge0901.pythonanywhere.com", "127.0.0.1"]
+ALLOWED_HOSTS = ["CharleneV.pythonanywhere.com", "127.0.0.1"]
 
 # Current DJANGO_ENVIRONMENT
 ENVIRONMENT = os.environ.get("DJANGO_ENVIRONMENT", default="local")
@@ -68,6 +68,7 @@ INSTALLED_APPS = [
     "apps.forms",
     "apps.form_layouts",
     "apps.tables",
+    "dashboard",
 ]
 
 MIDDLEWARE = [
